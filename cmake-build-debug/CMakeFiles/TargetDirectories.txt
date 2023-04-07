@@ -1,3 +1,3 @@
-C:/GIT/EjerciciosPractica/proyecto/cmake-build-debug/CMakeFiles/proyecto.dir
-C:/GIT/EjerciciosPractica/proyecto/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/GIT/EjerciciosPractica/proyecto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/GIT/Proyecto-Zoologico/cmake-build-debug/CMakeFiles/proyecto.dir
+C:/GIT/Proyecto-Zoologico/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/GIT/Proyecto-Zoologico/cmake-build-debug/CMakeFiles/rebuild_cache.dir

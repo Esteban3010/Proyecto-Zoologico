@@ -5,8 +5,8 @@
 #include "habitat.h"
 using namespace std;
 
-habitat::habitat(string nombre):
-nombre(nombre){}
+habitat::habitat(int id,string nombre):
+id(id),nombre(nombre){}
 
 string habitat::getNombre() {
     return nombre;
@@ -15,5 +15,9 @@ string habitat::getNombre() {
 void habitat::setNombre(string nombre) {
     this->nombre = nombre;
 
+}
+
+int habitat::getId() {
+    return id;
 }
 

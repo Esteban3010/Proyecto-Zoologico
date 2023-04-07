@@ -1,4 +1,4 @@
-# Install script for directory: C:/GIT/EjerciciosPractica/proyecto
+# Install script for directory: C:/GIT/Proyecto-Zoologico
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/GIT/EjerciciosPractica/proyecto/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/GIT/Proyecto-Zoologico/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

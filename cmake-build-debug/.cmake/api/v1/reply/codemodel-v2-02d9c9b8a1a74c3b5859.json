@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/GIT/EjerciciosPractica/proyecto/cmake-build-debug",
-		"source" : "C:/GIT/EjerciciosPractica/proyecto"
+		"build" : "C:/GIT/Proyecto-Zoologico/cmake-build-debug",
+		"source" : "C:/GIT/Proyecto-Zoologico"
 	},
 	"version" : 
 	{

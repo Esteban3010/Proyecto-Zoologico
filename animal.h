@@ -11,21 +11,20 @@ using namespace std;
 
 class animal {
 private:
+    int id;
     string nombre;
     string especie;
     string alimentacion;
     int edad;
 public:
-    animal(string,string,string,int);
+    animal(int,string,string,string,int);
     void mostrarInfo();
-    void setNombre(string nombre);
+    int getId();
     string getNombre();
-    void setEspecie(string especie);
     string getEspecie();
-    void setAlimentacion(string alimentacion);
     string getAlimentacion();
-    void setEdad(int edad);
     int getEdad();
+
 
 
 

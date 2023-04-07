@@ -12,9 +12,11 @@ using namespace std;
 class habitat {
 
 private:
+    int id;
     string nombre;
 public:
-    habitat(string);
+    habitat(int,string);
+    int getId();
     void setNombre(string);
     string getNombre();
     vector<animal> animales;

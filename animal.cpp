@@ -3,11 +3,11 @@
 //
 
 #include "animal.h"
-animal ::animal(string nombre, string especie, string alimentacion, int edad) :
-nombre(nombre), especie(especie), alimentacion(alimentacion), edad(edad){}
+animal ::animal(int id,string nombre, string especie, string alimentacion, int edad) :
+id(id),nombre(nombre), especie(especie), alimentacion(alimentacion), edad(edad){}
 
 void animal::mostrarInfo() {
-    cout <<"nombre: " << nombre << endl;
+    cout <<"["<<id<<"] nombre: " << nombre << endl;
     cout <<"edad: " << edad << endl;
     cout <<"especie: " << especie << endl;
     cout <<"alimentacion: " << alimentacion << endl;
@@ -29,18 +29,10 @@ int animal::getEdad() {
     return edad;
 }
 
-void animal::setNombre(string nombre) {
-    this->nombre = nombre;
+
+
+int animal::getId() {
+    return id;
 }
 
-void animal::setEspecie(string especie) {
-    this->especie = especie;
-}
 
-void animal::setAlimentacion(string alimentacion) {
-    this->alimentacion = alimentacion;
-}
-
-void animal::setEdad(int edad) {
-    this->edad = edad;
-}
